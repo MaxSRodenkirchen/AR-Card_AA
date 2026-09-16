@@ -1,0 +1,391 @@
+{
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "position": [
+        15.543919532048085,
+        20.055475384277056,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 9.499865896516605
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "position": [
+        0,
+        2,
+        3
+      ],
+      "rotation": [
+        0.0004436887233141014,
+        0.9659425615285845,
+        -0.2587508986008223,
+        0.0016563336561801576
+      ],
+      "scale": [
+        1,
+        0.9999999999999998,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 9.55750133318988
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 1,
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 9.528683614853241
+    },
+    "991b75e8-95e9-433a-8c8b-7d9aae9cd66e": {
+      "id": "991b75e8-95e9-433a-8c8b-7d9aae9cd66e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "e91ab9d2-74da-4d5c-a985-ab1a85ebeab5": {
+          "id": "e91ab9d2-74da-4d5c-a985-ab1a85ebeab5",
+          "name": "example-component",
+          "parameters": {}
+        }
+      },
+      "name": "Bild Ziel",
+      "imageTarget": {
+        "name": "AA-Logo"
+      },
+      "order": 9.586319051526516
+    },
+    "b6cfcbfe-7f1d-4c49-aae9-685c6f118f63": {
+      "id": "b6cfcbfe-7f1d-4c49-aae9-685c6f118f63",
+      "position": [
+        0,
+        0.893440688496635,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#31a056",
+        "opacity": 0.22500000000000003
+      },
+      "parentId": "991b75e8-95e9-433a-8c8b-7d9aae9cd66e",
+      "components": {},
+      "name": "Flugzeug",
+      "order": 1.6488556706258315
+    },
+    "fd8893d8-3490-456c-ace7-b75d3631a33d": {
+      "id": "fd8893d8-3490-456c-ace7-b75d3631a33d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b6cfcbfe-7f1d-4c49-aae9-685c6f118f63",
+      "components": {
+        "f63c76d9-1784-4403-86e0-9daf6d338740": {
+          "id": "f63c76d9-1784-4403-86e0-9daf6d338740",
+          "name": "scale-animation",
+          "parameters": {
+            "toZ": 1.2,
+            "fromX": 1,
+            "fromY": 1,
+            "fromZ": 1,
+            "toX": 1.2,
+            "toY": 1.2,
+            "duration": 10000,
+            "easeIn": true,
+            "easeOut": true
+          }
+        }
+      },
+      "ui": {
+        "width": 70,
+        "height": 10,
+        "text": "Yey, it works",
+        "color": "#ffffff",
+        "fontSize": 12,
+        "type": "3d"
+      },
+      "name": "Text",
+      "order": 1.2730006263572609
+    },
+    "4de0577f-6f5a-4505-a456-b578ce71c1e5": {
+      "id": "4de0577f-6f5a-4505-a456-b578ce71c1e5",
+      "position": [
+        3.581683228066032,
+        -1.3325573023489383,
+        0.005995663891088521
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "780888b9-6eea-426a-84ee-bb0e6333b6dc",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 70,
+        "height": 10,
+        "text": "Find the cat!",
+        "color": "#ffffff",
+        "fontSize": 34,
+        "type": "overlay",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "textAlign": "center",
+        "flexWrap": "nowrap",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 151,
+        "paddingRight": 151
+      },
+      "name": "Text",
+      "order": 8.269966793647477
+    },
+    "be1c3be8-14ab-494f-b60e-83c78d1a48b2": {
+      "id": "be1c3be8-14ab-494f-b60e-83c78d1a48b2",
+      "position": [
+        0,
+        -0.8934406409544413,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        0.9999999467875211,
+        0.9999999467875211
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b6cfcbfe-7f1d-4c49-aae9-685c6f118f63",
+      "components": {
+        "1ffaffa7-da00-4af8-81e6-de13349a4d2d": {
+          "id": "1ffaffa7-da00-4af8-81e6-de13349a4d2d",
+          "name": "example-component",
+          "parameters": {}
+        }
+      },
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/383229__zagi2__eastern-sunset-2.wav"
+        },
+        "loop": true,
+        "pitch": 1.0000000000000004,
+        "positional": true
+      },
+      "name": "sound.wav",
+      "order": 2.9119869760195813
+    },
+    "780888b9-6eea-426a-84ee-bb0e6333b6dc": {
+      "id": "780888b9-6eea-426a-84ee-bb0e6333b6dc",
+      "position": [
+        1.7000000000000002,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "fa0ddb19-52f7-4ca1-bd3c-722f57d65191": {
+          "id": "fa0ddb19-52f7-4ca1-bd3c-722f57d65191",
+          "name": "image-target-visibility",
+          "parameters": {
+            "showOnFound": false
+          }
+        }
+      },
+      "ui": {
+        "width": 300,
+        "height": 600,
+        "type": "overlay",
+        "background": "#6b9486",
+        "backgroundOpacity": 0.19999999999999984,
+        "maxWidth": "",
+        "maxHeight": "",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexDirection": "column",
+        "flexWrap": "wrap",
+        "backgroundSize": "stretch",
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      "name": "Frame",
+      "order": 9.615136769863154,
+      "disabled": true
+    },
+    "722c21d4-8d8c-4241-ac38-352dcdd2bb8f": {
+      "id": "722c21d4-8d8c-4241-ac38-352dcdd2bb8f",
+      "position": [
+        0.011595621552568885,
+        -0.04182119110150617,
+        -0.02248859269758996
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "991b75e8-95e9-433a-8c8b-7d9aae9cd66e",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/animated_chick.glb"
+        },
+        "animationClip": "Take 001",
+        "loop": true
+      },
+      "name": "animated_chick.glb",
+      "order": 2.7669260760340317
+    }
+  },
+  "spaces": {
+    "88453035-dc0f-486d-868a-8ff7c2fda864": {
+      "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "name": "Default Space",
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "fog": {
+        "type": "linear",
+        "near": 0.1,
+        "far": 1000,
+        "color": "#FFFFFF"
+      }
+    }
+  },
+  "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+}

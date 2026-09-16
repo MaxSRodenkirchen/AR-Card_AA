@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 480,
+    "height": 640,
+    "isRotated": true,
+    "originalWidth": 480,
+    "originalHeight": 640
+  },
+  "imagePath": "image-targets/cat-cropped_luminance.png",
+  "metadata": null,
+  "name": "cat-cropped",
+  "resources": {
+    "originalImage": "cat-cropped_original.png",
+    "croppedImage": "cat-cropped_cropped.png",
+    "thumbnailImage": "cat-cropped_thumbnail.png",
+    "luminanceImage": "cat-cropped_luminance.png"
+  },
+  "created": 1789555745410,
+  "updated": 1789555745410
+}
