@@ -122,7 +122,7 @@
       },
       "name": "Bild Ziel",
       "imageTarget": {
-        "name": "AA-Logo"
+        "name": "cat-cropped"
       },
       "order": 9.586319051526516
     },
@@ -337,8 +337,7 @@
         "paddingRight": 0
       },
       "name": "Frame",
-      "order": 9.615136769863154,
-      "disabled": true
+      "order": 9.615136769863154
     },
     "722c21d4-8d8c-4241-ac38-352dcdd2bb8f": {
       "id": "722c21d4-8d8c-4241-ac38-352dcdd2bb8f",
